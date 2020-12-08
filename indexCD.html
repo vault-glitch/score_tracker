@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <img id="hero" src="Ping_Pong.jpg" alt="ping pong table">
+            <h1 id="h1">Ping Pong Score Keeper</h1>
+        </div>
+        <div class="scoreSection">
+            <section id="display">
+                <div id="score">
+                    <span id="P1Score">0</span>
+                    <span>to</span>
+                    <span id="P2Score">0</span>
+                </div>
+                <p>Use the buttons below to keep score</p>
+                <h2>Playing To
+                    <select name="winScore" id="winScore">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                </h2>
+            </section>
+        </div>
+        <section id="buttons">
+            <button id="P1">+1 Player One</button>
+            <button id="P2">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </section>
+
+    </div>
+    <script src="appCD.js"></script>
+</body>
+
+</html>
